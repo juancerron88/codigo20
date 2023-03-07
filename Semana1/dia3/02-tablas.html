@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        *{
+            background-color: #222;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        code {
+            font-family: consolas;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Filas y columnas</h2>
+            <p>Las tablas se colocan dentro de una etiqueta <code>table</code></p>
+            <p>Las tablas tienen 3 partes</p>
+            <ul>
+                <li><code>thead</code>: Cabecera</li>
+                <li><code>tbody</code>: Cuerpo</li>
+                <li><code>tfoot</code>: Pie de tabla</li>
+            </ul>
+        </section>
+        <hr />
+        <section>
+            <h2>Tabla Simple</h2>
+            <table  border="1">
+                <thead>
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Descripción</th>
+                        <th>P. Unitario</th>
+                        <th>P. Total</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>Teclado Mecánico sony</td>
+                        <td>S/. 200.00</td>
+                        <td>S/. 400.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Auriculares Microsoft</td>
+                        <td>S/. 150.00</td>
+                        <td>S/. 450.00</td>
+                    </tr>
+                    <tr>
+                        <td>0.5</td>
+                        <td>Cable HDMI con acople flexible</td>
+                        <td>S/. 10.00</td>
+                        <td>S/. 5.00</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Mouse</td>
+                        <td>S/. 70.00</td>
+                        <td>S/. 70.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" >TOTAL</td>
+                        <td>S/. 925.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr />
+        <section>
+            <h2>Combinando Filas</h2>
+            <p>para combinar filas se usa el atributo <code>rowspan</code></p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th> Etiqueta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="5">formulario</td>
+                        <td>form</td>
+                    </tr>
+                    <tr>
+                     
+                        <td>button</td>
+                    </tr>
+                    <tr>
+                       
+                        <td>input</td>
+                    </tr>
+                    <tr>
+                       
+                        <td>select</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>textarea</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">Tabla</td>
+                        <td>tr</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>th</td>
+                    </tr>
+                    <tr>
+                       
+                        <td>td</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>tr</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>caption</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">Texto</td>
+                        <td>b</td>
+                    </tr>
+                    <tr>
+                        <td>em</td>
+                    </tr>
+                    <tr>
+                        <td>i</td>
+                    </tr>
+                    <tr>
+                        <td>strong</td>
+                    </tr>
+                    <tr>
+                        <td>sub</td>
+                    </tr>
+                    <tr>
+                        <td>sup</td>
+                    </tr> 
+                </tbody>
+                <tfoot>
+                    <tr>
+                       
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr />
+        <section>
+            <h2>Ejercicio 1</h2>
+            <table border="1">
+                <thead>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="5"> Supermercado "La Vendedora"</td>
+                    <td></td>
+                    <td>01/03/2023</td>
+                  </tr>
+                  <tr>
+                    
+                    <td colspan="2"> Nro de Factura</td>
+
+                  </tr>
+                  <tr>
+                    
+                    <td>Cliente</td>
+                    <td rowspan="3">Juan Francisco</td>
+                  </tr>
+                  <tr>
+                    
+                   
+                    <td>RUC:</td>
+                  </tr>
+                  <tr>             
+                    <td>Dirección:</td>
+                  </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    color: red;
+    font-size: 20px;
+    margin: 40px;
+    border: solid 3px;
+}
+.rojo{
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 3px;
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 20px;
+}
+#apellido{
+    color: black;
+}
