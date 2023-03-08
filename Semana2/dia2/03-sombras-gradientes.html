@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        body{
+            background: #6eb4ac;
+        }
+        .card{
+            height: 500px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            /*border: 1px solid #ccc;*/
+            /* box-shadow: rgb(150,150,150) 1px 4px 15px inset; */
+            /* border-radius: 8px; */
+            margin-top: 50px;
+            padding: 16px;
+            border-radius: 45px;
+            border-radius: 36px;
+            background: #6eb4ac;
+            box-shadow:  27px 27px 54px #385c58,
+             -27px -27px 54px #a4ffff;
+        }
+.caja-gradiente{
+    height: 300px;
+    background-image: -webkit-linear-gradient(top,#f45b67, #f4aaaa);
+}
+.caja-gradiente2{
+    height: 500px;
+   background: #642B73;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.caja-blur{
+    filter: blur(5px); grayscale(1px);
+    cursor: pointer;
+}
+.caja-blur:hover{
+    filter: blur(0px)
+}
+    </style>
+</head>
+<body>
+    <div class="card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis sunt repudiandae qui eligendi esse, placeat aut inventore at eveniet consequatur beatae earum minima cumque suscipit vitae aspernatur a. Hic, consequuntur.</div>
+<div class="caja-gradiente"></div>
+<div class="caja-gradiente2"></div>
+<div class="caja-blur">
+    <img src="./textura1.jpg" alt=""/>
+</div>
+</body>
+</html>

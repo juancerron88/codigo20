@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgorund</title>
+    <style>
+        *{
+            margin:0;
+            box-sizing: border-box;
+            padding:0;
+        }
+        body{
+            padding-bottom: 400px;
+        }
+        .caja-1{
+            height: 200px;
+            background-color: royalblue;
+        }
+        .caja-2{
+            height: 200px;
+           /* background-color: red;*/
+            background-image: url(./textura1.jpg);
+            background-repeat: repeat-x;
+            background-size: 500px;
+        }
+        .caja-3{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            /*border-radius: 25px;*/
+            border-radius: 50%;
+        }
+        .caja-4{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+            background-image: url(./textura1.jpg);
+        }
+        .caja-5{
+           width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+            overflow:hidden;
+        }
+        .caja-5 img{
+            height: 100%;
+            width: 100%;
+        }
+        input{
+            border: 1px solid brown;
+            border-radius: 8px;
+            padding: 8px 16px;
+            outline: none
+        }
+    </style>
+</head>
+<body>
+    <div class="caja-1">caja1</div>
+    <div class="caja-2">caja2</div>
+    <div class="caja-3">caja3</div>
+    <div class="caja-4">caja4</div>
+    <div class="caja-5"><img src="./textura1.jpg" alt=""></div>
+<input type="text"placeholder>
+
+
+</body>
+</html>
