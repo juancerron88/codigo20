@@ -1,0 +1,45 @@
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+.main__sidebar {
+width: 240px;
+height: 200px;
+border: 1px solid red;
+display: inline-block;
+}
+.main__principal{
+    width: 600px;
+    border: 1px solid purple;
+    height: 200px;
+    display: inline-block;
+}
+.navbar__list-item{
+display: inline-block;
+margin-right: 10px;
+border-radius: 10px;
+padding: 3.5px 10px;
+transition: all 0.1s ease-in 0s;
+cursor: pointer;
+}
+.main__list{
+    /* regla para desaparecer las viñetas en un ul */
+    list-style: none;
+    text-align: center;
+}
+.navbar{
+    height: 50px;
+    box-shadow: #aaa 0px 0px 8px;
+    background-color: #444;
+    color: #eee;
+}
+.navbar__list-item:hover{
+    background-color: #0287a8;
+    transform: scale(1.15);
+}
+/*.active{
+    background-color: #0287a8;
+    border-radius: 10px;
+    padding: 3.5px 10px;
+}*/
