@@ -49,3 +49,77 @@ to{
     height: 400px;
 }
 }
+.box-uno{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: box-animation;
+    animation-duration: 10s;
+}
+@keyframes box-animation{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: sandybrown;
+
+    }
+    50%{
+        background-color: rgb(34, 0, 128);
+        
+    }
+    75%{
+        background-color: blueviolet;
+        
+    }
+    100%{
+        background-color: green;
+        
+    }
+}
+.fotos-uno{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    animation-name: fotos-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fotos-animation{
+    25%{
+        background-image: url(./i1.jpg);
+
+    }
+    50%{
+        background-image: url(./logo.png);
+        
+    }
+    75%{
+        background-image: url(./i1.jpg);
+        
+    }
+    100%{
+        background-image: url(./textura1.jpg);
+        
+    }
+}
+.ball-uno{
+    height: 100px;
+    width: 100px;
+    border: solid blue;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: ball-animation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes ball-animation{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-130px);
+    }
+}
