@@ -1,0 +1,19 @@
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+.caja-out{
+    height: 400px;
+    width: 400px;
+    border: solid 1px red;
+    position: relative;
+}
+.caja-in{
+    height: 200px;
+    width: 200px;
+    border: solid 1px purple;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+}

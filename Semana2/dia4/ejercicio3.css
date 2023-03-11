@@ -1,0 +1,14 @@
+
+body{
+    background-color: #0d1038;
+
+}
+.cuadro{
+    width: 350px;
+    height: 450px;
+    border-radius: 2%;
+    background-color: #252850;
+    box-shadow: 7px 7px 30px;
+    display: flex;
+    justify-content: center;   
+ }

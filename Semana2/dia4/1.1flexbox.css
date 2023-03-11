@@ -1,0 +1,24 @@
+.papa{
+    display: flex;
+    margin: 5px;
+}
+div{
+    margin:5px
+}
+.main-navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+.papa-box{
+border: solid orange 2px;
+height: 50vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
