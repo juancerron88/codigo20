@@ -1,0 +1,37 @@
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+.header{
+    display: inline-block;
+    border: solid blueviolet 2px;
+    height: 12vh;
+}
+.contenedor-secciones{
+    width: 1200px;
+    height: 350px;
+    background: aqua;
+}
+.seccion1{
+    width: 600px;
+    height: 350px;
+    background: gray;
+    float:left;
+}
+.seccion2{
+    width: 600px;
+    height: 350px;
+    background: blueviolet;
+    float: right;
+}
+.seccion3{
+    width: 1200px;
+    height: 350px;
+    background: orchid;
+}
+.footer{
+    width: 1200px;
+    height: 150px;
+    background: #cccccc;
+}
